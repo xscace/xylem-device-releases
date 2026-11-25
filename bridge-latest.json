@@ -1,0 +1,16 @@
+{
+  "version": "2.3.2",
+  "notes": "Self-update: the amplifier checks the release manifest daily and installs over HTTPS with verification and rollback; per-unit staging source; presets on LittleFS; crash summary in health",
+  "boards": {
+    "esp32-eth": {
+      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.2/xscace_bridge-esp32-eth-2.3.2.bin",
+      "sha256": "b57178c86e488cf89de77bf67e0290f9933eac61179ef4ab84da88e429ea8160",
+      "size": 2507824
+    },
+    "esp32-tdisplay": {
+      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.2/xscace_bridge-esp32-tdisplay-2.3.2.bin",
+      "sha256": "13d73bd6e997d91a9e28f30caf5956cce8a82a8c6cf2a6429bd8ef51e55961e0",
+      "size": 2389888
+    }
+  }
+}
