@@ -1,16 +1,16 @@
 {
-  "version": "2.3.8",
-  "notes": "Fixes a restart loop in 2.3.7 (the automatic update check overran its task stack). A new image now confirms itself only after its first update check; stack overruns stop with the task named; the last panic is reported in health.",
+  "version": "2.3.9",
+  "notes": "2.3.9 \u2014 ROOTS presets on the bridge; install progress in /api/update/status",
   "boards": {
     "esp32-eth": {
-      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.8/xscace_bridge-esp32-eth-2.3.8.bin",
-      "sha256": "382109aff45fadee56fee03243edccb12ff0a517253627dd04e3a88c53431bb7",
-      "size": 2533456
+      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.9/xscace_bridge-esp32-eth-2.3.9.bin",
+      "sha256": "0358ff992730f8ef283b5a42de5331309c138b3f0380ab84754cd58ca3921775",
+      "size": 2537616
     },
     "esp32-tdisplay": {
-      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.8/xscace_bridge-esp32-tdisplay-2.3.8.bin",
-      "sha256": "d6de74b2acfa3870e32d7e0232b6df1178cf521c0d70a4e82187e8519759318b",
-      "size": 2414784
+      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.9/xscace_bridge-esp32-tdisplay-2.3.9.bin",
+      "sha256": "2e71a0f4566a95c133de2f67073ff185ffee9c7ab7467442c92dd28100d4b029",
+      "size": 2418880
     }
   }
 }
