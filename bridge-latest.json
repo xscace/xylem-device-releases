@@ -1,16 +1,16 @@
 {
-  "version": "2.3.4",
-  "notes": "Self-update: redirect-safe download, IPv4, network probe; per-unit staging source; presets on LittleFS; crash summary in health",
+  "version": "2.3.5",
+  "notes": "Self-update: every address of the release host is tried (one CDN edge can be down), redirect-safe, IPv4, network probe; socket limit raised; per-unit staging source; presets on LittleFS; crash summary in health",
   "boards": {
     "esp32-eth": {
-      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.4/xscace_bridge-esp32-eth-2.3.4.bin",
-      "sha256": "e5354715845124e514e3fa1367038871e92e98124c93b3921dd1d3ff29cb9690",
-      "size": 2509296
+      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.5/xscace_bridge-esp32-eth-2.3.5.bin",
+      "sha256": "d53b39897d9042eceb944d398548019394509a53c5bf51da667b8d9418032e66",
+      "size": 2511296
     },
     "esp32-tdisplay": {
-      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.4/xscace_bridge-esp32-tdisplay-2.3.4.bin",
-      "sha256": "38d4ddf506424e4c58dfff5c361c786ec5ac2a200b97de9bd941c94e20db755a",
-      "size": 2391344
+      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.5/xscace_bridge-esp32-tdisplay-2.3.5.bin",
+      "sha256": "7651ff9e55210254b2060f6f778a362611d8e99d1080356998f4d45b688fc6c3",
+      "size": 2393312
     }
   }
 }
