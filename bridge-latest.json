@@ -1,16 +1,16 @@
 {
-  "version": "2.3.7",
-  "notes": "Self-update: long signed download links handled; every address of the release host tried; redirect-safe; IPv4; presets on LittleFS; crash summary in health",
+  "version": "2.3.8",
+  "notes": "Fixes a restart loop in 2.3.7 (the automatic update check overran its task stack). A new image now confirms itself only after its first update check; stack overruns stop with the task named; the last panic is reported in health.",
   "boards": {
     "esp32-eth": {
-      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.7/xscace_bridge-esp32-eth-2.3.7.bin",
-      "sha256": "2857f68a2648a2be85df4093456eb5bc5f75c7c1a022ad690a2b0ca9584a3d68",
-      "size": 2511536
+      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.8/xscace_bridge-esp32-eth-2.3.8.bin",
+      "sha256": "382109aff45fadee56fee03243edccb12ff0a517253627dd04e3a88c53431bb7",
+      "size": 2533456
     },
     "esp32-tdisplay": {
-      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.7/xscace_bridge-esp32-tdisplay-2.3.7.bin",
-      "sha256": "2033ff6fb6d4b8686318f914d3001b19b531b9e81af5b2d2060ae24417c16d00",
-      "size": 2393552
+      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.8/xscace_bridge-esp32-tdisplay-2.3.8.bin",
+      "sha256": "d6de74b2acfa3870e32d7e0232b6df1178cf521c0d70a4e82187e8519759318b",
+      "size": 2414784
     }
   }
 }
