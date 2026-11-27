@@ -1,16 +1,16 @@
 {
-  "version": "2.3.9",
-  "notes": "2.3.9 \u2014 ROOTS presets on the bridge; install progress in /api/update/status",
+  "version": "2.3.11",
+  "notes": "2.3.11 \u2014 Xylem: amplifier standby is no longer treated as a fault; one smooth mute per settings change; Ethernet-board pins",
   "boards": {
     "esp32-eth": {
-      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.9/xscace_bridge-esp32-eth-2.3.9.bin",
-      "sha256": "0358ff992730f8ef283b5a42de5331309c138b3f0380ab84754cd58ca3921775",
-      "size": 2537616
+      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.11/xscace_bridge-esp32-eth-2.3.11.bin",
+      "sha256": "8472c871f7852bdf70f06968f2efb10afa9ea94e468304e5e871c74f04a8af41",
+      "size": 2543168
     },
     "esp32-tdisplay": {
-      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.9/xscace_bridge-esp32-tdisplay-2.3.9.bin",
-      "sha256": "2e71a0f4566a95c133de2f67073ff185ffee9c7ab7467442c92dd28100d4b029",
-      "size": 2418880
+      "url": "https://github.com/xscace/xylem-device-releases/releases/download/bridge-v2.3.11/xscace_bridge-esp32-tdisplay-2.3.11.bin",
+      "sha256": "e4d9fe55c791fb3cb38aaadbf3cce626fa16993e6e7f52da56e910a6bc93fb4e",
+      "size": 2423408
     }
   }
 }
